@@ -14,11 +14,12 @@
 		<span class="divid">main.gsp</span>
 		<div id="logo" role="banner">
 			<span class="divid">logo</span>
-			BOA Tree
+			BOA Tree logo goes here
 		</div>
 		<div id="boatreemenu" role="menu bar">
 			<span class="divid">boatreemenu</span>
 			<g:render template="/login/loginblock"/>
+			<g:render template="/layouts/createUserData"/>
 		</div>
 
 		<div id="boatreebody">
