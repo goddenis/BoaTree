@@ -1,0 +1,12 @@
+/* no css yet. */
+
+
+div { border: thin solid lightGray; padding: 1px; margin: 1px; }
+
+#logo {float: left;}
+
+#boatreemenu {float: right;}
+
+#boatreebody { clear: both;}
+
+#spinner { float: right;}
