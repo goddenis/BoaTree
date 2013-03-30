@@ -10,3 +10,5 @@ div { border: thin solid lightGray; padding: 1px; margin: 1px; }
 #boatreebody { clear: both;}
 
 #spinner { float: right;}
+
+.divid { color: lightGray; font-size: smaller; font-family: monospace; }

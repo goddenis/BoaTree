@@ -11,21 +11,22 @@
 		<r:layoutResources />
 	</head>
 	<body>
+		<span class="divid">main.gsp</span>
 		<div id="logo" role="banner">
-			logo
+			<span class="divid">logo</span>
 			BOA Tree
 		</div>
 		<div id="boatreemenu" role="menu bar">
-			boatreemenu
+			<span class="divid">boatreemenu</span>
 			<g:render template="/login/loginblock"/>
 		</div>
 
 		<div id="boatreebody">
-			boatreebody
+			<span class="divid">boatreebody</span>
 			<g:layoutBody/>
 		</div>		
-		<div class="footer" role="contentinfo">footer</div>
-		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
+		<div class="footer" role="contentinfo"><span class="divid">footer</span></div>
+		<div id="spinner" class="spinner" style="display:none;"><span class="divid">spinner</span><g:message code="spinner.alt" default="Loading&hellip;"/></div>
 		<g:javascript library="application"/>
 		<r:layoutResources />
 	</body>

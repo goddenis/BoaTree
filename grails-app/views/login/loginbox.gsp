@@ -5,7 +5,7 @@
 </head>
 <body>
 <div>
-	loginbox.gsp
+	<span class="divid">loginbox.gsp</span>
 	<g:render template="loginblock"/>
 </div>
 </body>

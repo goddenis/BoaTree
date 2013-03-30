@@ -11,7 +11,9 @@
 		<r:layoutResources />
 	</head>
 	<body>
+		<span class="divid">plaintest.gsp</span>
 		<div id="plain-test-body">
+			<span class="divid">plain-test-body</span>
 			<g:layoutBody/>
 		</div>		
 		<r:layoutResources />

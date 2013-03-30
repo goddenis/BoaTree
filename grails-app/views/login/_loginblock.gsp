@@ -1,12 +1,12 @@
+<span class="divid">_loginblock.gsp</span>
 <div id="loginblock">
-	loginblock.gsp
+	<span class="divid">loginblock</span>
 	<g:if test="${session?.login?.user == null}">
-		Not logged in
-		<button id="login_button">Log in</button>
+		<button id="login_button"><g:message code="loginblock.log_in" default="Log in &hellip;"/></button>
 	</g:if>
 	<g:else>
-		${session.login.user}
-		<button id="logout_button">Log out</button>
+		Logged in as ${session.login.user}
+		<button id="logout_button"><g:message code="loginblock.log_out" default="Log out"/></button>
 	</g:else>
 </div>
 

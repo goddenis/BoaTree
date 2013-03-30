@@ -4,19 +4,6 @@
 	<r:require modules="jquery"/>
 </head>
 <body>
-	This should have jquery.
-	
-	<div id="showtime">showtime!</div>
-	
-	<r:script>
-		try {
-			$("#showtime").click(function() {
-				$("#showtime").load("${createLink(action: "showTime")}");
-			});
-		}
-		catch(e) {
-			alert("JS Exception: " + e);
-		}
-	</r:script>
+	<span class="divid">home/index.gsp</span>
 </body>
 </html>
