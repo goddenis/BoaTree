@@ -11,22 +11,9 @@
 		<r:layoutResources />
 	</head>
 	<body>
-		<div id="logo" role="banner">
-			logo
-			BOA Tree
-		</div>
-		<div id="boatreemenu" role="menu bar">
-			boatreemenu
-			<g:render template="/login/loginblock"/>
-		</div>
-
-		<div id="boatreebody">
-			boatreebody
+		<div id="plain-test-body">
 			<g:layoutBody/>
 		</div>		
-		<div class="footer" role="contentinfo">footer</div>
-		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
-		<g:javascript library="application"/>
 		<r:layoutResources />
 	</body>
 </html>
