@@ -32,8 +32,13 @@ class User {
 	
 	String name;
 	String description;
-	Type type;
+	Type type = Type.G;
+	
+	public String toString() {
+		"User[${id}: ${type} \"${name}\"]"
+	}
 
     static constraints = {
+			description nullable: true;
     }
 }

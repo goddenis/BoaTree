@@ -7,9 +7,5 @@ class UserProfileService {
     def serviceMethod() {
 
     }
-	
-	def createTestData() {
-		throw new UnsupportedOperationException("TODO!");
-	}
-	
+		
 }

@@ -19,7 +19,6 @@
 		<div id="boatreemenu" role="menu bar">
 			<span class="divid">boatreemenu</span>
 			<g:render template="/login/loginblock"/>
-			<g:render template="/layouts/createUserData"/>
 		</div>
 
 		<div id="boatreebody">
