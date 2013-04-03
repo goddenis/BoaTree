@@ -22,10 +22,6 @@ class Workgroup {
 	String description;
 	Visibility visibility = Visibility.W;
 	
-//	def zzz() {
-//		["one", "two", "three"]
-//	}
-
 	def getUsers() {
 		UserGroup.findAllByWorkgroup(this);
 	}
