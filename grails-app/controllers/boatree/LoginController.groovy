@@ -7,17 +7,15 @@ class LoginController {
 
 	def login() {
 		session.login = [ user: "User1"]
-		loginbox()
+		chain 'loginbox', [loginmessage: 'Logged in', status: ResultStatus.success] // TODO: add message resource
 	}
 
 	def logout() {
 		session.login = [ user: null]
-		loginbox()
+		chain 'loginbox', [loginmessage: 'Logged out', status: ResultStatus.info] // TODO: add message resource
 	}
 
 	def loginbox() {
-		render([
-			view: '/login/loginbox'
-		])
+		render view: '/login/loginbox'
 	}
 }
