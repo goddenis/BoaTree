@@ -21,7 +21,15 @@ class Workgroup {
 	String name;
 	String description;
 	Visibility visibility = Visibility.W;
+	
+//	def zzz() {
+//		["one", "two", "three"]
+//	}
 
+	def getUsers() {
+		UserGroup.findAllByWorkgroup(this);
+	}
+	
 	boolean isPrivate() {
 		return
 	}
@@ -33,4 +41,8 @@ class Workgroup {
 	static constraints = {
 			description nullable: true;
 	}
+
+	static transients = [
+            'users'
+    ]
 }
